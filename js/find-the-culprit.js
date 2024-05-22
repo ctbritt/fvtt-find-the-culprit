@@ -55,7 +55,7 @@ function startDebugging(ev) {
                         <input class="lock-btn hidden" type="checkbox" data-module="${e}" tabindex="-1" ${locks[e] ? "checked" : ""}/>
                         <span class="fas lock"></span>
                         </label><input class="ftc-checkbox" type="checkbox" data-module="${e}" id="ftc-${e}" ${locks[e] ? "checked" : ""}><label class="package-title" for="${e}">${
-                        game.modules.get(e)?.data.title
+                        game.modules.get(e)?.title
                       }</label></li>`,
                   )
                   .join("")}
